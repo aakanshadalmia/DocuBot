@@ -133,7 +133,8 @@ class DataStore:
         col_defs = [f'{col_name} {col_type}' for col_name, col_type in self.DATABASE_SCHEMA.items()]        
         cols = ", ".join(col_defs)        
         table_creation_query = f"""
-            CREATE EXTENSION IF NOT EXISTS vector;            
+            CREATE EXTENSION IF NOT EXISTS vector;    
+            --DROP TABLE IF EXISTS {self.TABLE_NAME};
             CREATE TABLE IF NOT EXISTS {self.TABLE_NAME} (
             id SERIAL PRIMARY KEY,
             {cols}
