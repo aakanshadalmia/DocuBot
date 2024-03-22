@@ -4,7 +4,7 @@ In today's information-rich landscape, accessing and extracting relevant informa
 
 ### **Solution:**
 
-To address these challenges, I have developed a **chatbot powered by a Large Language Model (LLM) - DocuBot**. Leveraging advanced natural language processing, DocuBot allows users to **upload documents** and **pose queries** based on the document. The ingested documents are then processed to generate relevant **responses** for the user. 
+To address these challenges a **chatbot powered by a Large Language Model (LLM)** can be used. Leveraging advanced natural language processing, DocuBot allows users to **upload documents** and **pose queries** based on the document. The ingested documents are then processed to generate relevant **responses** for the user. 
 
 ### **Key Features:**
 
