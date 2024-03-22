@@ -4,15 +4,15 @@ In today's information-rich landscape, accessing and extracting relevant informa
 
 ### **Solution:**
 
-To address these challenges and facilitate efficient information retrieval, a **chatbot powered by a Large Language Model (LLM)** can be used. Leveraging advanced natural language processing, the chatbot will enable users to **pose queries and receive relevant responses based on the ingested documents**.
+To address these challenges, I have developed a **chatbot powered by a Large Language Model (LLM) - DocuBot**. Leveraging advanced natural language processing, DocuBot allows users to **upload documents** and **pose queries** based on the document. The ingested documents are then processed to generate relevant **responses** for the user. 
 
 ### **Key Features:**
 
-- **Document Ingestion**: Capable of ingesting textual documents in pdf format (currently).
+- **Document Ingestion**: Capable of taking textual documents as input from the user (only in pdf format currently).
 - **Natural Language Understanding**: Ability to extract and understand user queries to provide contextually relevant responses.
-- **Embedding-based Retrieval**: Utilizes text embeddings to efficiently retrieve relevant document segments corresponding to user queries.
 - **Conversation Continuity**: Maintains conversation history to provide coherent responses and improve user experience.
-- **Scalability and Performance**: Designed to handle large-scale document repositories by the use of cloud based database.
+- **Embedding-based Retrieval**: Utilizes text embeddings to efficiently retrieve relevant document segments corresponding to user queries.
+- **Scalability and Performance**: Designed to handle large-scale document repositories through the use of a cloud based database.
 
 ### **Use Cases:**
 
