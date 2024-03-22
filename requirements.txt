@@ -10,3 +10,4 @@ PyPDF2==3.0.1
 streamlit==1.32.2
 tiktoken==0.6.0
 vertexai==1.43.0
+
