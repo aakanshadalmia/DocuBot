@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: ankane/pgvector
+    ports:
+     - 5432:5432
+    environment:
+      - POSTGRES_DB=vectordb
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pwd
+    volumes:
+     - ~/Users/aakanshadalmia/Machine Learning:/data/db
