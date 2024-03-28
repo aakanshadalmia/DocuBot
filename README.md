@@ -6,6 +6,8 @@ In today's information-rich landscape, accessing and extracting relevant informa
 
 To address these challenges a **chatbot powered by a Large Language Model (LLM)** can be used. DocuBot allows users to **upload document(s)** and **pose queries** based on the document(s). The ingested documents are then processed to generate relevant **responses** using natural language processing. 
 
+Check out the demo [here](https://drive.google.com/file/d/1oVyovowxuDuX46-8r0PG-iGa6B4QQs4y/view)!
+
 ### **Key Features:**
 
 - **Document Ingestion**: Capable of taking textual documents as input from the user (only in pdf format currently).
